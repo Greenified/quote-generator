@@ -1,0 +1,89 @@
+/* Updated styles with margin between quote selection and generate button */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #542e91, #271052); /* Dark purple gradient */
+    color: white; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly transparent container background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    width: 400px; /* Adjust the container width as needed */
+}
+
+header {
+    background-color: #111; /* Even darker header background */
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.select-label {
+    font-family: 'Gabarito', sans-serif;
+    font-size: 18px;
+    color: #007BFF;
+    margin-right: 10px;
+}
+
+.quote-options {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center; /* Align the dropdown menu to the center */
+}
+
+/* Add margin to the right of the quote selection dropdown */
+#quoteType {
+    margin-right: 10px;
+}
+
+.quote-button {
+    background-color: transparent;
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+/* Highlight the selected button */
+.quote-button.selected {
+    background-color: #007BFF;
+    color: white;
+}
+
+#generateBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px; /* Add margin to the left of the generate button */
+}
+
+#generateBtn:hover {
+    background-color: #0056b3;
+}
+
+#quoteText {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #111; /* Footer background color */
+    padding: 10px;
+    text-align: center;
+    color: white; /* Footer text color */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}

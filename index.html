@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fontsource-gabarito@1.1.0/fontsource-gabarito.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 style="font-family: 'Gabarito', sans-serif;">Quote Generator</h1>
+        </header>
+
+        <div class="quote-options">
+            <label for="quoteType" class="select-label">Choose a Quote:</label>
+            <select id="quoteType">
+                <option value="modernQuotes">Modern Quotes</option>
+                <option value="oldQuotes">Old Quotes</option>
+            </select>
+        </div>
+        
+        <div class="quote-container">
+            <button id="generateBtn">Generate Quote</button>
+            <p id="quoteText"></p>
+        </div>
+        
+        <footer class="footer">
+            Made with ♥ by sleepy
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
